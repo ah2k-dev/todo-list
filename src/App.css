@@ -1,0 +1,49 @@
+.Header{
+  box-shadow: 0 0 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: chocolate;
+}
+.info-container, .list-container{
+  /* text-align: center; */
+  box-shadow: 0 0 10px;
+  margin: 10px;
+  padding: 8px;
+  background-color: #efefef;
+}
+.information label, input{
+  text-align: center;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  width: 40%;
+}
+.box{
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 0 1px gray;
+  display: flex;
+  justify-content: space-between;
+}
+.time{
+  flex: 20%;
+  text-align: left;
+}
+.desc{
+  flex: 70%;
+  text-align: center;
+}
+.x{
+  flex: 10%;
+  background-color: none;
+  border: none;
+  /* width: 15px; */
+}
+.x:hover{
+  cursor: pointer;
+  border: 1px solid red;
+}
+#btn{
+  background-color: chocolate;
+}
